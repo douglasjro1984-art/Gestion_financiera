@@ -1,0 +1,19 @@
+backend/
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── database.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   └── user.py
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   └── user.py
+│   ├── services/
+│   │   └── auth_service.py
+│   └── routers/
+│       ├── __init__.py
+│       ├── auth.py
+│       └── depends.py
+├── requirements.txt
+└── .env.example
